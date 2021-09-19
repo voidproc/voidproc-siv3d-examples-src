@@ -348,3 +348,10 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# Siv3D
+**/App/AS_DEBUG
+**/App/dll
+**/App/engine
+**/App/example
+**/App/*.exe
