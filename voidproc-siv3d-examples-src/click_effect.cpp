@@ -80,7 +80,7 @@ struct ClickEffect3 : IEffect
 		const double size = m_size * (1.0 - t_0_1);
 		const double alpha = 1.0 - 1.0 * (t_0_1);
 
-		m_pos += m_vel;
+		m_pos += m_vel * Scene::DeltaTime();
 
 		RectF{ size }
 			.setCenter(m_pos)
@@ -113,7 +113,7 @@ void Main()
 
 				effect.add<ClickEffect3>(
 					pos + Circular(Random(5, 35), angle),
-					Circular(0.8, angle));
+					Circular(80, angle));
 			}
 		}
 
