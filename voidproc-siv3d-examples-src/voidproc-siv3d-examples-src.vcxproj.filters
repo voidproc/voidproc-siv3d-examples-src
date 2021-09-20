@@ -189,6 +189,9 @@
     <ClCompile Include="click_effect.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="draw_glyphs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="App\icon.ico">
