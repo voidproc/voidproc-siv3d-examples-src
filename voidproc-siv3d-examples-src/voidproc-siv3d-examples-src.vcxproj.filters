@@ -192,6 +192,9 @@
     <ClCompile Include="draw_glyphs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="customclock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="App\icon.ico">
