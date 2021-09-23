@@ -195,6 +195,9 @@
     <ClCompile Include="customclock.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="dice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="App\icon.ico">
