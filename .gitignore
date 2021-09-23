@@ -355,3 +355,4 @@ MigrationBackup/
 **/App/engine
 **/App/example
 **/App/*.exe
+**/App/Screenshot
