@@ -74,7 +74,6 @@ void Main()
 		siv3dkun.update();
 
 		camera.jumpTo(siv3dkun.cameraTargetPosition(), 1.0);
-		camera.update();
 
 		{
 			const auto transformer = camera.createTransformer();
