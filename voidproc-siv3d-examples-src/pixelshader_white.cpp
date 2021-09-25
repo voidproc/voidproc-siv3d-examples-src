@@ -3,6 +3,7 @@
 struct WhiteEffectConstants
 {
 	float strength;
+	float unused[3];
 };
 
 void Main()
