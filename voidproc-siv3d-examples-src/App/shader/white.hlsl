@@ -23,6 +23,7 @@ cbuffer PSConstants2D : register(b0)
 cbuffer WhiteEffectConstants : register(b1)
 {
 	float strength;
+	float3 unused;
 }
 
 float4 PS(s3d::PSInput input) : SV_TARGET

@@ -204,6 +204,9 @@
     <ClCompile Include="camera.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="pixelshader_white.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="_TEMPLATE.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
