@@ -207,7 +207,7 @@
     <ClCompile Include="pixelshader_white.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="_TEMPLATE.cpp">
+    <ClCompile Include="low_resolution_scene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

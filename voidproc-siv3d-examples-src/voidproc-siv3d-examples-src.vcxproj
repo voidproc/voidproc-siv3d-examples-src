@@ -186,7 +186,7 @@
     <ClCompile Include="pixelshader_white.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="_TEMPLATE.cpp" />
+    <ClCompile Include="low_resolution_scene.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="App\engine\texture\box-shadow\128.png" />
