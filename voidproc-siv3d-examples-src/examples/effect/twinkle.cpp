@@ -1,4 +1,4 @@
-﻿#include <Siv3D.hpp> // OpenSiv3D v0.6.0
+﻿#include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
 struct Twinkle : IEffect
 {
@@ -23,7 +23,7 @@ struct Twinkle : IEffect
 	}
 };
 
-void Main()
+void Main_twinkle()
 {
 	Effect effect;
 

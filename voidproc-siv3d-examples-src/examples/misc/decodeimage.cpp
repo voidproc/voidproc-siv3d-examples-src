@@ -1,4 +1,4 @@
-﻿#include <Siv3D.hpp> // OpenSiv3D v0.6.0
+﻿#include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
 //#define ENCODE_IMAGES
 
@@ -14,7 +14,7 @@ String encodeFile(const FilePath& filepath)
 	return Base64::Encode(imgData.data(), length);
 }
 
-void Main()
+void Main_decodeimage()
 {
 #ifdef ENCODE_IMAGES
 	TextWriter writer(U"encodedImages.txt");

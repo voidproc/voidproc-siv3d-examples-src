@@ -1,6 +1,6 @@
-﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.0
+﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
-void Main()
+void Main_ddp_laser()
 {
 	Scene::SetBackground(Color{ 255, 237, 216 });
 

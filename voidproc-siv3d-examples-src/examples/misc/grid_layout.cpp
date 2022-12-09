@@ -1,4 +1,4 @@
-﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.0
+﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
 class GridLayout
 {
@@ -72,7 +72,7 @@ public:
 	}
 };
 
-void Main()
+void Main_grid_layout()
 {
 	Scene::SetBackground(Palette::Azure);
 

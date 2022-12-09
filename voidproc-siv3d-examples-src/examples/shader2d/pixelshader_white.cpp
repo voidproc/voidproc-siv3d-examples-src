@@ -1,4 +1,4 @@
-﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.0
+﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
 struct WhiteEffectConstants
 {
@@ -6,7 +6,7 @@ struct WhiteEffectConstants
 	float unused[3];
 };
 
-void Main()
+void Main_pixelshader_white()
 {
 	Scene::SetBackground(Color{ 30, 30, 30 });
 

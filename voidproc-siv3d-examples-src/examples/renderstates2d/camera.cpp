@@ -1,4 +1,4 @@
-﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.0
+﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
 class Siv3dkun
 {
@@ -56,7 +56,7 @@ public:
 	}
 };
 
-void Main()
+void Main_camera()
 {
 	Scene::SetBackground(ColorF{ 0, 0, 0 });
 

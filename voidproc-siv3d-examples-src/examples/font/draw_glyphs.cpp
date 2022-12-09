@@ -1,4 +1,4 @@
-﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.0
+﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
 class GlyphsDrawer
 {
@@ -66,7 +66,7 @@ public:
 	}
 };
 
-void Main()
+void Main_draw_glyphs()
 {
 	Scene::SetBackground(ColorF{ 0.2, 0.2, 0.2 });
 

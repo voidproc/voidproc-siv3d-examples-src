@@ -1,7 +1,7 @@
-﻿#include <Siv3D.hpp> // OpenSiv3D v0.6.0
+﻿#include <Siv3D.hpp> // OpenSiv3D v0.6.6
 #include <list>
 
-void Main()
+void Main_whites()
 {
 	std::list<std::tuple<Vec2, int, int>> whites;
 	Iota(32).each([&](auto) { whites.push_back(std::make_tuple(RandomVec2(Scene::Rect()), 0, Random(5, 9))); });

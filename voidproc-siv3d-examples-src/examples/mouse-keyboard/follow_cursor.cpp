@@ -1,4 +1,4 @@
-﻿#include <Siv3D.hpp> // OpenSiv3D v0.6.0
+﻿#include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
 // マウスに吸着する物体
 class Item
@@ -26,7 +26,7 @@ public:
 	}
 };
 
-void Main()
+void Main_follow_cursor()
 {
 	Scene::SetBackground(ColorF(0.2, 0.3, 0.4));
 

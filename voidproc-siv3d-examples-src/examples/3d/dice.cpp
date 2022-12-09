@@ -1,4 +1,4 @@
-﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.0
+﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
 void drawDice()
 {
@@ -47,7 +47,7 @@ void drawDice()
 	}
 }
 
-void Main()
+void Main_dice()
 {
 	const ColorF bgColor = ColorF{ 0.1, 0.15, 0.2 }.removeSRGBCurve();
 

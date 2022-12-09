@@ -133,82 +133,127 @@
     <Filter Include="Resource Files\example\xml">
       <UniqueIdentifier>{adda71c0-38fa-4ca2-91b9-e1e4039183dc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\engine\font\min">
+      <UniqueIdentifier>{1b103960-f11a-4515-b4f1-f59333ce00d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples">
+      <UniqueIdentifier>{28cd5913-260e-47e3-be82-579e40887730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\2d-intersection">
+      <UniqueIdentifier>{4a1f07b6-a684-48a7-988d-ae7f4da62851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\3d">
+      <UniqueIdentifier>{c1ef217e-597c-41cf-9675-4519aa7ea85d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\effect">
+      <UniqueIdentifier>{2dbb2d7e-68f5-49a2-8652-64027d0c0ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\font">
+      <UniqueIdentifier>{a3ccb413-154f-4321-b3fa-75b2530a7004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\misc">
+      <UniqueIdentifier>{83904dd8-d786-4b2e-aed3-7ca0f4958e23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\mouse-keyboard">
+      <UniqueIdentifier>{d4cf3d35-2249-4318-bedf-f8411a21f3ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\renderstates2d">
+      <UniqueIdentifier>{9162bb5e-75d4-4961-af2f-bdd202d4539f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\scene">
+      <UniqueIdentifier>{6d17ebd6-64d8-417b-8b21-94767336ad43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\shader2d">
+      <UniqueIdentifier>{5215721e-ab2b-438d-82ba-76f7465b2bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\texture">
+      <UniqueIdentifier>{08fab825-506c-419a-a167-67c349b0a1ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\time">
+      <UniqueIdentifier>{3ce87bfb-026f-4c82-9096-4a23b3ef9c91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\rendertexture">
+      <UniqueIdentifier>{d842eaee-6879-4252-8d7f-9c0791f7053a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ddp_laser.cpp">
+    <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bloom.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="examples\2d-intersection\ddp_laser.cpp">
+      <Filter>examples\2d-intersection</Filter>
     </ClCompile>
-    <ClCompile Include="retro.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="examples\2d-intersection\intersect.cpp">
+      <Filter>examples\2d-intersection</Filter>
     </ClCompile>
-    <ClCompile Include="transform.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="examples\3d\dice.cpp">
+      <Filter>examples\3d</Filter>
     </ClCompile>
-    <ClCompile Include="emoji_sparkle.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="examples\effect\click_effect.cpp">
+      <Filter>examples\effect</Filter>
     </ClCompile>
-    <ClCompile Include="decodeimage.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="examples\effect\trail.cpp">
+      <Filter>examples\effect</Filter>
     </ClCompile>
-    <ClCompile Include="twinkle.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="examples\effect\twinkle.cpp">
+      <Filter>examples\effect</Filter>
     </ClCompile>
-    <ClCompile Include="intersect.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="examples\font\draw_glyphs.cpp">
+      <Filter>examples\font</Filter>
     </ClCompile>
-    <ClCompile Include="lowresolution.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="examples\font\glyph.cpp">
+      <Filter>examples\font</Filter>
     </ClCompile>
-    <ClCompile Include="window_appears.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="examples\misc\decodeimage.cpp">
+      <Filter>examples\misc</Filter>
     </ClCompile>
-    <ClCompile Include="motion.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="examples\misc\grid_layout.cpp">
+      <Filter>examples\misc</Filter>
     </ClCompile>
-    <ClCompile Include="trail.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="examples\misc\motion.cpp">
+      <Filter>examples\misc</Filter>
     </ClCompile>
-    <ClCompile Include="grid_layout.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="examples\misc\whites.cpp">
+      <Filter>examples\misc</Filter>
     </ClCompile>
-    <ClCompile Include="follow_cursor.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="examples\mouse-keyboard\follow_cursor.cpp">
+      <Filter>examples\mouse-keyboard</Filter>
     </ClCompile>
-    <ClCompile Include="whites.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="examples\mouse-keyboard\key_mouse_inputs.cpp">
+      <Filter>examples\mouse-keyboard</Filter>
     </ClCompile>
-    <ClCompile Include="glyph.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="examples\renderstates2d\camera.cpp">
+      <Filter>examples\renderstates2d</Filter>
     </ClCompile>
-    <ClCompile Include="click_effect.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="examples\renderstates2d\transform.cpp">
+      <Filter>examples\renderstates2d</Filter>
     </ClCompile>
-    <ClCompile Include="draw_glyphs.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="examples\renderstates2d\window_appears.cpp">
+      <Filter>examples\renderstates2d</Filter>
     </ClCompile>
-    <ClCompile Include="customclock.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="examples\rendertexture\bloom.cpp">
+      <Filter>examples\rendertexture</Filter>
     </ClCompile>
-    <ClCompile Include="dice.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="examples\rendertexture\lowresolution.cpp">
+      <Filter>examples\rendertexture</Filter>
     </ClCompile>
-    <ClCompile Include="key_mouse_inputs.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="examples\rendertexture\retro.cpp">
+      <Filter>examples\rendertexture</Filter>
     </ClCompile>
-    <ClCompile Include="camera.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="examples\scene\low_resolution_scene.cpp">
+      <Filter>examples\scene</Filter>
     </ClCompile>
-    <ClCompile Include="pixelshader_white.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="examples\shader2d\pixelshader_white.cpp">
+      <Filter>examples\shader2d</Filter>
     </ClCompile>
-    <ClCompile Include="low_resolution_scene.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="examples\texture\emoji_sparkle.cpp">
+      <Filter>examples\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\time\customclock.cpp">
+      <Filter>examples\time</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -792,6 +837,12 @@
     <None Include="App\example\toml\test.toml">
       <Filter>Resource Files\example\toml</Filter>
     </None>
+    <None Include="App\engine\font\min\LICENSE">
+      <Filter>Resource Files\engine\font\min</Filter>
+    </None>
+    <None Include="App\engine\font\min\siv3d-min.woff">
+      <Filter>Resource Files\engine\font\min</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Media Include="App\example\test.mp3">
@@ -834,6 +885,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\examples.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

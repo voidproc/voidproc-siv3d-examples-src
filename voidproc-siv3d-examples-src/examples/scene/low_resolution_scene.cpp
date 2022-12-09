@@ -1,6 +1,6 @@
-﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.0
+﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
-void Main()
+void Main_low_resolution_scene()
 {
 	// シーンサイズを決定
 	constexpr Size sceneSize{ 256, 256 };

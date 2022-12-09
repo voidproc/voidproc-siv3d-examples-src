@@ -1,4 +1,4 @@
-﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.0
+﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
 String commaSeparatedInputNames(const Array<Input>& inputs)
 {
@@ -6,7 +6,7 @@ String commaSeparatedInputNames(const Array<Input>& inputs)
 		.join(U", ", U"", U"");
 }
 
-void Main()
+void Main_key_mouse_inputs()
 {
 	Scene::SetBackground(ColorF{ 0.0, 0.05, 0.1 });
 

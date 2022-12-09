@@ -1,4 +1,4 @@
-﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.0
+﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
 void drawBg()
 {
@@ -14,7 +14,7 @@ void drawScene()
 
 }
 
-void Main()
+void Main_bloom()
 {
 	Scene::SetBackground(Palette::Black);
 

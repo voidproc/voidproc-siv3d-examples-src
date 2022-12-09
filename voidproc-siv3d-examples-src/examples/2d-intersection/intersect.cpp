@@ -1,7 +1,7 @@
-﻿#include <Siv3D.hpp> // OpenSiv3D v0.6.0
+﻿#include <Siv3D.hpp> // OpenSiv3D v0.6.6
 #include <variant>
 
-void Main()
+void Main_intersect()
 {
 	Scene::SetBackground(Palette::Slategray);
 

@@ -1,4 +1,4 @@
-﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.0
+﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
 class SubWindow
 {
@@ -49,7 +49,7 @@ public:
 	}
 };
 
-void Main()
+void Main_window_appears()
 {
 	Scene::SetBackground(ColorF(0.95, 0.95, 0.95));
 

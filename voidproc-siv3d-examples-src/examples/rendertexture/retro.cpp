@@ -1,11 +1,11 @@
-﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.0
+﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
-void drawBg()
+void drawBg_retro()
 {
 	Scene::Rect().draw(Arg::top = ColorF(0.15), Arg::bottom = ColorF(0.40));
 }
 
-void drawScene()
+void drawScene_retro()
 {
 	const double angle = Scene::Time() * 0.7;
 	TextureAsset(U"cat").resized(128).rotated(Scene::Time() * 1.6).drawAt(Scene::CenterF() + Circular(150, angle));
@@ -23,7 +23,7 @@ void drawScanline()
 	}
 }
 
-void Main()
+void Main_retro()
 {
 	Scene::SetBackground(Palette::Black);
 
@@ -52,8 +52,8 @@ void Main()
 			{
 				ScopedRenderTarget2D target(rtScene);
 				rtScene.clear(Palette::Black);
-				drawBg();
-				drawScene();
+				drawBg_retro();
+				drawScene_retro();
 			}
 
 			// シーン（背景なし）にガウスぼかしを掛ける（ブルーム用）
@@ -62,7 +62,7 @@ void Main()
 				ScopedRenderTarget2D target(rtBlurA);
 				ScopedRenderStates2D state(BlendState::Additive);
 				rtBlurA.clear(Palette::Black);
-				drawScene();
+				drawScene_retro();
 
 				Shader::GaussianBlur(rtBlurA, rtBlurB, rtBlurA);
 				Shader::Downsample(rtBlurA, rtBlur4A);

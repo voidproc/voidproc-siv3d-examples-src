@@ -1,4 +1,4 @@
-﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.0
+﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
 struct MotionKey
 {
@@ -62,7 +62,7 @@ public:
 	}
 };
 
-void Main()
+void Main_motion()
 {
 	Scene::SetBackground(ColorF(0.95, 0.95, 0.95));
 

@@ -1,4 +1,4 @@
-﻿#include <Siv3D.hpp> // OpenSiv3D v0.6.0
+﻿#include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
 const Size FieldSize{ 320, 160 };
 
@@ -19,7 +19,7 @@ void drawWave(const int n_div = 64)
 	}
 }
 
-void Main()
+void Main_transform()
 {
 	while (System::Update())
 	{

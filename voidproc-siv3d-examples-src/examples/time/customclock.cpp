@@ -1,4 +1,4 @@
-﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.0
+﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
 class CustomClock : public ISteadyClock
 {
@@ -44,7 +44,7 @@ private:
 	VariableSpeedStopwatch m_clock;
 };
 
-void Main()
+void Main_customclock()
 {
 	Scene::SetBackground(ColorF{ 0, 0, 0 });
 

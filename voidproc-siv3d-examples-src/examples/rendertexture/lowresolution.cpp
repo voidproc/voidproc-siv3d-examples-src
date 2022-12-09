@@ -1,6 +1,6 @@
-﻿#include <Siv3D.hpp> // OpenSiv3D v0.6.0
+﻿#include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
-void Main()
+void Main_lowresolution()
 {
 	const Size resolution(128, 72);
 	const int scaling = 10;

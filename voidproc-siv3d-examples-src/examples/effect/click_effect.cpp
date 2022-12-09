@@ -1,4 +1,4 @@
-﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.0
+﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
 struct ClickEffect : IEffect
 {
@@ -121,7 +121,7 @@ struct ClickEffect : IEffect
 	};
 };
 
-void Main()
+void Main_click_effect()
 {
 	Scene::SetBackground(ColorF{ U"#05070F" });
 	
