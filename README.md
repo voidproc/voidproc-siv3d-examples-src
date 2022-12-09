@@ -2,6 +2,10 @@
 
 [Siv3Dミニサンプル集 (Scrapbox)](https://scrapbox.io/voidproc-siv3d-examples/Siv3D%E3%83%9F%E3%83%8B%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E9%9B%86) に載せているサンプルコードです。
 
+>Siv3D のいろいろな便利な機能を試したり、紹介したりするために作成した、ちょっとしたプログラムをサンプル集として公開しています。
+
+## サンプル集
+
 - あたり判定
   - [障害物に当たるまで上方へ伸びる DDP 風レーザー](voidproc-siv3d-examples-src/examples/2d-intersection/ddp_laser.cpp)
   - [異なる種類の図形に対し一括であたり判定をチェックする](voidproc-siv3d-examples-src/examples/2d-intersection/intersect.cpp)
@@ -38,3 +42,9 @@
   - [Base64 でエンコードした画像をソースコードに埋め込み、表示](voidproc-siv3d-examples-src/examples/misc/decodeimage.cpp)
   - [phina.js 風グリッドレイアウト](voidproc-siv3d-examples-src/examples/misc/grid_layout.cpp)
   - [指定した一連の座標に向かっていくオブジェクト](voidproc-siv3d-examples-src/examples/misc/motion.cpp)
+
+## 開発環境
+
+- Windows 11 Pro 22H2
+- Visual Studio 2022 Community 17.4.2
+- [OpenSiv3D](https://siv3d.github.io/ja-jp/) v0.6.6
