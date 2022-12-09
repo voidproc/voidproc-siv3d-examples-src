@@ -38,5 +38,3 @@
   - [Base64 でエンコードした画像をソースコードに埋め込み、表示](voidproc-siv3d-examples-src/examples/misc/decodeimage.cpp)
   - [phina.js 風グリッドレイアウト](voidproc-siv3d-examples-src/examples/misc/grid_layout.cpp)
   - [指定した一連の座標に向かっていくオブジェクト](voidproc-siv3d-examples-src/examples/misc/motion.cpp)
-- 古いバージョンのサンプルコード
-  - [モクモク (OpenSiv3D v0.3.2)](https://scrapbox.io/voidproc-siv3d-examples/%E3%83%A2%E3%82%AF%E3%83%A2%E3%82%AF)
