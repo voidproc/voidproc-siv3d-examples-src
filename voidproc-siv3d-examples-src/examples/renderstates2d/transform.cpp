@@ -1,4 +1,6 @@
-﻿#include <Siv3D.hpp> // OpenSiv3D v0.6.6
+﻿// 2D 描画位置を自由にずらす
+
+#include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
 const Size FieldSize{ 320, 160 };
 

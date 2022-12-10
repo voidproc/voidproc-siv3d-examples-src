@@ -1,4 +1,6 @@
-﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.6
+﻿// テクスチャを白く点滅させるピクセルシェーダ
+
+# include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
 struct WhiteEffectConstants
 {

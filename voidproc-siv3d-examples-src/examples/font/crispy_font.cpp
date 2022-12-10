@@ -1,15 +1,17 @@
-﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.6
+﻿// ピクセルフォントを使用する
+
+# include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
 // 使用フォント
 // ・美咲ゴシック(第2)、美咲明朝、k8x12(L,S)
 //   門真 なむ 様 https://littlelimit.net/font.htm
-// 
+//
 // ・Nuきなこもち、Nuあんこもち
 //   こかげの窓 様 http://kokagem.sakura.ne.jp/font/mochi/
-// 
+//
 // ・JFドットシリーズ
 //   自家製フォント工房 様 http://jikasei.me/font/jf-dotfont/
-// 
+//
 // ・５×７ドット文字
 //   ユズノカ 様 https://booth.pm/ja/items/1477300
 

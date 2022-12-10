@@ -1,4 +1,6 @@
-﻿#include <Siv3D.hpp> // OpenSiv3D v0.6.6
+﻿// Base64 でエンコードした画像をソースコードに埋め込み、表示
+
+#include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
 //#define ENCODE_IMAGES
 
@@ -10,7 +12,7 @@ String encodeFile(const FilePath& filepath)
 	String imgData;
 	imgData.resize(length);
 	reader.read(imgData.data(), length);
-	
+
 	return Base64::Encode(imgData.data(), length);
 }
 
@@ -28,7 +30,7 @@ void Main_decodeimage()
 	const String encodedImage = U"iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgAgMAAADf85YXAAAACVBMVEXf/+8kSwCfv399yLhfAAAAnUlEQVQoz7XRQQrCUAwE0Al0BHddmPsETzCFfOhxFDyCB/b/Fu2v3eosH9lMBod42SUxYpfhl+ABWFINrMxASqBzaOACoFEYyFMFK40agmQFCnr24GFJzB3ACpGQYoWsYOENvAOGdM0FxEgLi8+FXGCYKrADbHCp4OiBQumB97DEbYO1S0jTYy0HVMIklXf9cxHgoVwe9JcZjmN/5wXZ+S43N2BYQwAAAABJRU5ErkJggg==";
 
 	const Texture texture(MemoryReader(Base64::Decode(encodedImage)));
-	
+
 	Window::Resize(768, 512);
 
 	while (System::Update())

@@ -1,4 +1,6 @@
-﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.6
+﻿// phina.js 風グリッドレイアウト
+
+# include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
 class GridLayout
 {

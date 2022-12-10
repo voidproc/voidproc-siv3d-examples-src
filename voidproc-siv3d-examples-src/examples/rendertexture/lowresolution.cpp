@@ -1,4 +1,6 @@
-﻿#include <Siv3D.hpp> // OpenSiv3D v0.6.6
+﻿// 低解像度のレンダーテクスチャに描画した結果を整数倍に拡大して表示するサンプル
+
+#include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
 void Main_lowresolution()
 {

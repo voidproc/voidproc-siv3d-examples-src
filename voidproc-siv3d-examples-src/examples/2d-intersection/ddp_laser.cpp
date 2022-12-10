@@ -1,4 +1,6 @@
-﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.6
+﻿// 障害物に当たるまで上方へ伸びる DDP 風レーザー
+
+# include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
 void Main_ddp_laser()
 {

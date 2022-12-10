@@ -1,4 +1,6 @@
-﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.6
+﻿// 画面外からぬるっと現れるビューポート
+
+# include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
 class SubWindow
 {

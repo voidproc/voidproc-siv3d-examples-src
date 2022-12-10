@@ -1,4 +1,6 @@
-﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.6
+﻿// Stopwatchを一括して停止・再開したり、遅く／速く進行させる（ISteadyClockの実装例）
+
+# include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
 class CustomClock : public ISteadyClock
 {

@@ -1,4 +1,6 @@
-﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.6
+﻿// レンダーテクスチャとガウスぼかし、ピクセルシェーダを使ったレトロコンソール的表現
+
+# include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
 void drawBg_retro()
 {

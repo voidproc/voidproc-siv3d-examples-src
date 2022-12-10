@@ -1,4 +1,6 @@
-﻿# include <Siv3D.hpp> // OpenSiv3D v0.6.6
+﻿// 絵文字を含むテキストを文字単位で自由描画する
+
+# include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
 class GlyphsDrawer
 {

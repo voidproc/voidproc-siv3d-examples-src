@@ -1,4 +1,6 @@
-﻿#include <Siv3D.hpp> // OpenSiv3D v0.6.6
+﻿// キラキラ
+
+#include <Siv3D.hpp> // OpenSiv3D v0.6.6
 
 struct Twinkle : IEffect
 {
