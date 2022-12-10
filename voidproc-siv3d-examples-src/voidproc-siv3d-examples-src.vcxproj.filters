@@ -255,6 +255,9 @@
     <ClCompile Include="examples\time\customclock.cpp">
       <Filter>examples\time</Filter>
     </ClCompile>
+    <ClCompile Include="examples\font\crispy_font.cpp">
+      <Filter>examples\font</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="App\icon.ico">

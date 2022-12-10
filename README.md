@@ -16,6 +16,7 @@
 - フォントを使う
   - [グリフアニメーション](voidproc-siv3d-examples-src/examples/font/glyph.cpp)
   - [絵文字を含むテキストを文字単位で自由描画する](voidproc-siv3d-examples-src/examples/font/draw_glyphs.cpp)
+  - [ピクセルフォントを使用する](voidproc-siv3d-examples-src/examples/font/crispy_font.cpp)
 - シーンとウィンドウ
   - [低解像度のシーンを整数倍に拡大して表示](voidproc-siv3d-examples-src/examples/scene/low_resolution_scene.cpp)
 - マウス・キーボード入力

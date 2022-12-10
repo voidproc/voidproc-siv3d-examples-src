@@ -15,6 +15,7 @@ void Main_twinkle();
 // font
 void Main_draw_glyphs();
 void Main_glyph();
+void Main_crispy_font();
 
 // misc
 void Main_decodeimage();

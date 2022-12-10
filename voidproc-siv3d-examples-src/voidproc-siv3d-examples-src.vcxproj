@@ -119,6 +119,7 @@
     <ClCompile Include="examples\effect\click_effect.cpp" />
     <ClCompile Include="examples\effect\trail.cpp" />
     <ClCompile Include="examples\effect\twinkle.cpp" />
+    <ClCompile Include="examples\font\crispy_font.cpp" />
     <ClCompile Include="examples\font\draw_glyphs.cpp" />
     <ClCompile Include="examples\font\glyph.cpp" />
     <ClCompile Include="examples\misc\decodeimage.cpp" />

@@ -21,6 +21,7 @@ void Main()
 	// font
 	//Main_draw_glyphs();
 	//Main_glyph();
+	Main_crispy_font();
 
 	// misc
 	//Main_decodeimage();
