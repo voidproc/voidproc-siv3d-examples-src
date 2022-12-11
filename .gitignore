@@ -357,5 +357,8 @@ MigrationBackup/
 **/App/*.exe
 **/App/Screenshot
 
+# vscode
+.vscode/
+
 # misc
 README.partial.md
