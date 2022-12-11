@@ -38,6 +38,9 @@ void Main()
 	//Main_trail(); // trail.cpp : テクスチャに残像をつける
 	//Main_twinkle(); // twinkle.cpp : キラキラ
 
+	// ★ シーン管理 ( examples/scene-manager/ )
+	//Main_various_fade(); // various_fade.cpp : いろんなフェード
+
 	// ★ レンダーテクスチャ ( examples/rendertexture/ )
 	//Main_bloom(); // bloom.cpp : レンダーテクスチャとガウスぼかしを使ったブルーム効果
 	//Main_lowresolution(); // lowresolution.cpp : 低解像度のレンダーテクスチャに描画した結果を整数倍に拡大して表示するサンプル

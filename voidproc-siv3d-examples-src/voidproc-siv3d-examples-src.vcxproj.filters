@@ -175,6 +175,9 @@
     <Filter Include="examples\rendertexture">
       <UniqueIdentifier>{d842eaee-6879-4252-8d7f-9c0791f7053a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="examples\scene-manager">
+      <UniqueIdentifier>{28d613ee-383b-4ec0-8fce-1073b3aed24f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -260,6 +263,9 @@
     </ClCompile>
     <ClCompile Include="examples\misc\_tmp.cpp">
       <Filter>examples\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\scene-manager\various_fade.cpp">
+      <Filter>examples\scene-manager</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

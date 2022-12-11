@@ -32,6 +32,9 @@ void Main_click_effect(); // click_effect.cpp : マウスクリック位置に�
 void Main_trail(); // trail.cpp : テクスチャに残像をつける
 void Main_twinkle(); // twinkle.cpp : キラキラ
 
+// ★ シーン管理 ( examples/scene-manager/ )
+void Main_various_fade(); // various_fade.cpp : いろんなフェード
+
 // ★ レンダーテクスチャ ( examples/rendertexture/ )
 void Main_bloom(); // bloom.cpp : レンダーテクスチャとガウスぼかしを使ったブルーム効果
 void Main_lowresolution(); // lowresolution.cpp : 低解像度のレンダーテクスチャに描画した結果を整数倍に拡大して表示するサンプル

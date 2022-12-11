@@ -32,6 +32,7 @@ sections = {
     'mouse-keyboard': { 'desc': 'マウス・キーボード入力', 'examples': [] },
     'renderstates2d': { 'desc': '2D レンダーステート', 'examples': [] },
     'effect': { 'desc': 'エフェクト', 'examples': [] },
+    'scene-manager': { 'desc': 'シーン管理', 'examples': [] },
     'rendertexture': { 'desc': 'レンダーテクスチャ', 'examples': [] },
     'shader2d': { 'desc': '2D カスタムシェーダ', 'examples': [] },
     '3d': { 'desc': '3D 形状を描く', 'examples': [] },

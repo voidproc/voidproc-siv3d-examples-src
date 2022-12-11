@@ -30,6 +30,8 @@
   - [マウスクリック位置にエフェクト](voidproc-siv3d-examples-src/examples/effect/click_effect.cpp)
   - [テクスチャに残像をつける](voidproc-siv3d-examples-src/examples/effect/trail.cpp)
   - [キラキラ](voidproc-siv3d-examples-src/examples/effect/twinkle.cpp)
+- シーン管理
+  - [いろんなフェード](voidproc-siv3d-examples-src/examples/scene-manager/various_fade.cpp)
 - レンダーテクスチャ
   - [レンダーテクスチャとガウスぼかしを使ったブルーム効果](voidproc-siv3d-examples-src/examples/rendertexture/bloom.cpp)
   - [低解像度のレンダーテクスチャに描画した結果を整数倍に拡大して表示するサンプル](voidproc-siv3d-examples-src/examples/rendertexture/lowresolution.cpp)

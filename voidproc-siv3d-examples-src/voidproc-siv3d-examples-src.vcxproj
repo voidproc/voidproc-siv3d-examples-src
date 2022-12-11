@@ -135,6 +135,7 @@
     <ClCompile Include="examples\rendertexture\bloom.cpp" />
     <ClCompile Include="examples\rendertexture\lowresolution.cpp" />
     <ClCompile Include="examples\rendertexture\retro.cpp" />
+    <ClCompile Include="examples\scene-manager\various_fade.cpp" />
     <ClCompile Include="examples\scene\low_resolution_scene.cpp" />
     <ClCompile Include="examples\shader2d\pixelshader_white.cpp" />
     <ClCompile Include="examples\texture\emoji_sparkle.cpp" />
