@@ -258,6 +258,9 @@
     <ClCompile Include="examples\font\crispy_font.cpp">
       <Filter>examples\font</Filter>
     </ClCompile>
+    <ClCompile Include="examples\misc\_tmp.cpp">
+      <Filter>examples\misc</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="App\icon.ico">

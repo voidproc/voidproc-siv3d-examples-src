@@ -126,6 +126,7 @@
     <ClCompile Include="examples\misc\grid_layout.cpp" />
     <ClCompile Include="examples\misc\motion.cpp" />
     <ClCompile Include="examples\misc\whites.cpp" />
+    <ClCompile Include="examples\misc\_tmp.cpp" />
     <ClCompile Include="examples\mouse-keyboard\follow_cursor.cpp" />
     <ClCompile Include="examples\mouse-keyboard\key_mouse_inputs.cpp" />
     <ClCompile Include="examples\renderstates2d\camera.cpp" />

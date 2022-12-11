@@ -51,12 +51,13 @@ for dirpath, dirnames, filenames in os.walk('./'):
 
 # examples/examples.h を出力
 
-with open('examples.h', 'w', encoding='utf_8_sig') as file_examples_h:
+examples_path = 'examples.h'
+
+with open(examples_path, 'w', encoding='utf_8_sig') as file_examples_h:
     file_examples_h.write('# pragma once\n\n')
 
     for section in sections:
         section_desc = sections[section]["desc"]
-
         file_examples_h.write(f'// ★ {section_desc} ( examples/{section}/ )\n')
 
         for filename, main_func_def, comment in sections[section]['examples']:
@@ -67,12 +68,13 @@ with open('examples.h', 'w', encoding='utf_8_sig') as file_examples_h:
 
 # Main.cpp を出力
 
-with open('../Main.cpp', 'w', encoding='utf_8_sig') as file_main_cpp:
+main_cpp_path = '../Main.cpp'
+
+with open(main_cpp_path, 'w', encoding='utf_8_sig') as file_main_cpp:
     file_main_cpp.write('# include <Siv3D.hpp>\n\n# include "examples/examples.h"\n\nvoid Main()\n{\n\t// 実行したいサンプルの行をコメントアウトしてください\n\n')
 
     for section in sections:
         section_desc = sections[section]["desc"]
-
         file_main_cpp.write(f'\t// ★ {section_desc} ( examples/{section}/ )\n')
 
         for filename, main_func_def, comment in sections[section]['examples']:
@@ -82,3 +84,19 @@ with open('../Main.cpp', 'w', encoding='utf_8_sig') as file_main_cpp:
         
     file_main_cpp.write('}\n')
     
+
+# README.partial.md を出力
+
+readme_path = '../../README.partial.md'
+
+with open(readme_path, 'w', encoding='utf_8_sig') as file_readme:
+    for section in sections:
+        section_desc = sections[section]['desc']
+        file_readme.write(f'- {section_desc}\n')
+
+        for filename, main_func_def, comment in sections[section]['examples']:
+            if filename == '_tmp.cpp':
+                continue
+            
+            src_path = f'voidproc-siv3d-examples-src/examples/{section}/{filename}'
+            file_readme.write(f'  - [{comment}]({src_path})\n')

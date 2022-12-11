@@ -54,5 +54,6 @@ void Main()
 	//Main_grid_layout(); // grid_layout.cpp : phina.js 風グリッドレイアウト
 	//Main_motion(); // motion.cpp : 指定した一連の座標に向かっていくオブジェクト
 	//Main_whites(); // whites.cpp : チョウのようなものの群れが飛んで行く
+	//Main_tmp(); // _tmp.cpp : //
 
 }

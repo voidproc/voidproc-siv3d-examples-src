@@ -48,4 +48,5 @@ void Main_decodeimage(); // decodeimage.cpp : Base64 でエンコードした画
 void Main_grid_layout(); // grid_layout.cpp : phina.js 風グリッドレイアウト
 void Main_motion(); // motion.cpp : 指定した一連の座標に向かっていくオブジェクト
 void Main_whites(); // whites.cpp : チョウのようなものの群れが飛んで行く
+void Main_tmp(); // _tmp.cpp : //
 
