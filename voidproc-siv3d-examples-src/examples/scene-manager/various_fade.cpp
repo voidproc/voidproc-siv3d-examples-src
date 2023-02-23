@@ -14,7 +14,7 @@ struct Fade
 // 1. 画面全体をフェード
 struct Fade1 : public Fade
 {
-	virtual void fade(double t) override
+	void fade(double t) override
 	{
 		Scene::Rect().draw(ColorF{ 0.1, EaseInCubic(t) });
 	}
@@ -23,7 +23,7 @@ struct Fade1 : public Fade
 // 2. 円が広がる／狭まる
 struct Fade2 : public Fade
 {
-	virtual void fade(double t) override
+	void fade(double t) override
 	{
 		const auto r = Scene::CenterF().distanceFrom(Vec2::Zero());
 
@@ -34,7 +34,7 @@ struct Fade2 : public Fade
 // 3. くるくる
 struct Fade3 : public Fade
 {
-	virtual void fade(double t) override
+	void fade(double t) override
 	{
 		const auto n = 3;
 		const auto r0 = Scene::CenterF().distanceFrom(Vec2::Zero());
@@ -64,7 +64,7 @@ struct Fade4 : public Fade
 		Shuffle(rectPos);
 	}
 
-	virtual void fade(double t) override
+	void fade(double t) override
 	{
 		for (auto [index, pos] : Indexed(rectPos))
 		{
