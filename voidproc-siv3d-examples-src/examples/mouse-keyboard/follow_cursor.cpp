@@ -1,6 +1,6 @@
 ﻿// マウスに吸着する物体
 
-#include <Siv3D.hpp> // OpenSiv3D v0.6.6
+#include <Siv3D.hpp> // OpenSiv3D v0.6.7
 
 // マウスに吸着する物体
 class Item

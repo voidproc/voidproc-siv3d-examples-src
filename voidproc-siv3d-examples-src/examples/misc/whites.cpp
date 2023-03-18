@@ -1,6 +1,6 @@
 ﻿// チョウのようなものの群れが飛んで行く
 
-#include <Siv3D.hpp> // OpenSiv3D v0.6.6
+#include <Siv3D.hpp> // OpenSiv3D v0.6.7
 #include <list>
 
 void Main_whites()

@@ -1,6 +1,6 @@
-﻿# include <Siv3D.hpp>
+﻿#include <Siv3D.hpp>
 
-# include "examples/examples.h"
+#include "examples/examples.h"
 
 void Main()
 {

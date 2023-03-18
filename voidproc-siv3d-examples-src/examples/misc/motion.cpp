@@ -1,6 +1,6 @@
 ﻿// 指定した一連の座標に向かっていくオブジェクト
 
-# include <Siv3D.hpp> // OpenSiv3D v0.6.6
+#include <Siv3D.hpp> // OpenSiv3D v0.6.7
 
 struct MotionKey
 {
