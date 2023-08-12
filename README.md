@@ -54,5 +54,5 @@
 ## 開発環境
 
 - Windows 11 Pro 22H2
-- Visual Studio 2022 Community 17.5.0
-- [OpenSiv3D](https://siv3d.github.io/ja-jp/) v0.6.7
+- Visual Studio 2022 Community 17.6.4
+- [OpenSiv3D](https://siv3d.github.io/ja-jp/) v0.6.11
