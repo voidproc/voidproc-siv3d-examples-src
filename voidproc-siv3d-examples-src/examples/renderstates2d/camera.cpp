@@ -1,6 +1,6 @@
 ﻿// キャラの少し前の方を2Dカメラで追従する
 
-#include <Siv3D.hpp> // OpenSiv3D v0.6.7
+#include <Siv3D.hpp> // OpenSiv3D v0.6.11
 
 class Siv3dkun
 {

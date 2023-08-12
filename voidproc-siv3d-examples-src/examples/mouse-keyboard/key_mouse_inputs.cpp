@@ -1,6 +1,6 @@
 ﻿// 押されたキー・マウスのボタン名を表示
 
-#include <Siv3D.hpp> // OpenSiv3D v0.6.7
+#include <Siv3D.hpp> // OpenSiv3D v0.6.11
 
 String commaSeparatedInputNames(const Array<Input>& inputs)
 {

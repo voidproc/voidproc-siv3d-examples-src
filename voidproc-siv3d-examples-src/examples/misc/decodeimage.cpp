@@ -1,6 +1,6 @@
 ﻿// Base64 でエンコードした画像をソースコードに埋め込み、表示
 
-#include <Siv3D.hpp> // OpenSiv3D v0.6.7
+#include <Siv3D.hpp> // OpenSiv3D v0.6.11
 
 //#define ENCODE_IMAGES
 

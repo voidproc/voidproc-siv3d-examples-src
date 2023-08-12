@@ -1,6 +1,6 @@
 ﻿// ピクセルフォントを使用する
 
-#include <Siv3D.hpp> // OpenSiv3D v0.6.7
+#include <Siv3D.hpp> // OpenSiv3D v0.6.11
 
 // 使用フォント
 // ・美咲ゴシック(第2)、美咲明朝、k8x12(L,S)

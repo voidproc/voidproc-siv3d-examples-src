@@ -1,6 +1,6 @@
 ﻿// マウスクリック位置にエフェクト
 
-#include <Siv3D.hpp> // OpenSiv3D v0.6.7
+#include <Siv3D.hpp> // OpenSiv3D v0.6.11
 
 struct ClickEffect : IEffect
 {

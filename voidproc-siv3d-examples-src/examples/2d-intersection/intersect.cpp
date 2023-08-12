@@ -1,6 +1,6 @@
 ﻿// 異なる種類の図形に対し一括であたり判定をチェックする
 
-#include <Siv3D.hpp> // OpenSiv3D v0.6.7
+#include <Siv3D.hpp> // OpenSiv3D v0.6.11
 #include <variant>
 
 void Main_intersect()

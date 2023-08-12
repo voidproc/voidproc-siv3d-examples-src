@@ -1,6 +1,6 @@
 ﻿// 絵文字のみを使ってキラッとするアニメーション
 
-#include <Siv3D.hpp> // OpenSiv3D v0.6.7
+#include <Siv3D.hpp> // OpenSiv3D v0.6.11
 
 void Main_emoji_sparkle()
 {

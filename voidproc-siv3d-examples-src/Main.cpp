@@ -4,7 +4,7 @@
 
 void Main()
 {
-	// 実行したいサンプルの行をコメントアウトしてください
+	// 実行したいサンプルの行のコメントを外してください.
 
 	// ★ あたり判定 ( examples/2d-intersection/ )
 	//Main_ddp_laser(); // ddp_laser.cpp : 障害物に当たるまで上方へ伸びる DDP 風レーザー

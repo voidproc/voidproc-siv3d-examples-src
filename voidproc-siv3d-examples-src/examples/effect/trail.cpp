@@ -1,6 +1,6 @@
 ﻿// テクスチャに残像をつける
 
-#include <Siv3D.hpp> // OpenSiv3D v0.6.7
+#include <Siv3D.hpp> // OpenSiv3D v0.6.11
 
 // 徐々に消えるテクスチャ（残像）
 struct Afterimage : IEffect

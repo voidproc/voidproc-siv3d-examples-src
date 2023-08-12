@@ -1,6 +1,6 @@
 ﻿// 低解像度のシーンを整数倍に拡大して表示
 
-#include <Siv3D.hpp> // OpenSiv3D v0.6.7
+#include <Siv3D.hpp> // OpenSiv3D v0.6.11
 
 void Main_low_resolution_scene()
 {
