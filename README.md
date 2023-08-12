@@ -6,6 +6,10 @@
 
 ## サンプル集
 
+- 図形を描く
+  - [レーダーチャート](voidproc-siv3d-examples-src/examples/shape/radar_chart.cpp)
+- 動きを作る
+  - [イージングエディタ](voidproc-siv3d-examples-src/examples/animation/easing_editor.cpp)
 - あたり判定
   - [障害物に当たるまで上方へ伸びる DDP 風レーザー](voidproc-siv3d-examples-src/examples/2d-intersection/ddp_laser.cpp)
   - [異なる種類の図形に対し一括であたり判定をチェックする](voidproc-siv3d-examples-src/examples/2d-intersection/intersect.cpp)
@@ -22,6 +26,7 @@
 - マウス・キーボード入力
   - [マウスに吸着する物体](voidproc-siv3d-examples-src/examples/mouse-keyboard/follow_cursor.cpp)
   - [押されたキー・マウスのボタン名を表示](voidproc-siv3d-examples-src/examples/mouse-keyboard/key_mouse_inputs.cpp)
+  - [テキスト入力ウィンドウ](voidproc-siv3d-examples-src/examples/mouse-keyboard/textinput_window.cpp)
 - 2D レンダーステート
   - [キャラの少し前の方を2Dカメラで追従する](voidproc-siv3d-examples-src/examples/renderstates2d/camera.cpp)
   - [2D 描画位置を自由にずらす](voidproc-siv3d-examples-src/examples/renderstates2d/transform.cpp)
