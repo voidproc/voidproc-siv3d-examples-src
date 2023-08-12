@@ -118,6 +118,7 @@
     <ClCompile Include="examples\2d-intersection\ddp_laser.cpp" />
     <ClCompile Include="examples\2d-intersection\intersect.cpp" />
     <ClCompile Include="examples\3d\dice.cpp" />
+    <ClCompile Include="examples\animation\easing_editor.cpp" />
     <ClCompile Include="examples\effect\click_effect.cpp" />
     <ClCompile Include="examples\effect\trail.cpp" />
     <ClCompile Include="examples\effect\twinkle.cpp" />
@@ -131,6 +132,7 @@
     <ClCompile Include="examples\misc\_tmp.cpp" />
     <ClCompile Include="examples\mouse-keyboard\follow_cursor.cpp" />
     <ClCompile Include="examples\mouse-keyboard\key_mouse_inputs.cpp" />
+    <ClCompile Include="examples\mouse-keyboard\textinput_window.cpp" />
     <ClCompile Include="examples\renderstates2d\camera.cpp" />
     <ClCompile Include="examples\renderstates2d\transform.cpp" />
     <ClCompile Include="examples\renderstates2d\window_appears.cpp" />
@@ -140,6 +142,7 @@
     <ClCompile Include="examples\scene-manager\various_fade.cpp" />
     <ClCompile Include="examples\scene\low_resolution_scene.cpp" />
     <ClCompile Include="examples\shader2d\pixelshader_white.cpp" />
+    <ClCompile Include="examples\shape\radar_chart.cpp" />
     <ClCompile Include="examples\texture\emoji_sparkle.cpp" />
     <ClCompile Include="examples\time\customclock.cpp" />
     <ClCompile Include="Main.cpp" />

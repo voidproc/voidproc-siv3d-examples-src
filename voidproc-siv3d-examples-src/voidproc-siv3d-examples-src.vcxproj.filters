@@ -178,6 +178,12 @@
     <Filter Include="examples\scene-manager">
       <UniqueIdentifier>{28d613ee-383b-4ec0-8fce-1073b3aed24f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="examples\animation">
+      <UniqueIdentifier>{eaaebe69-ace3-49ae-ba7f-e6677a2d443d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\shape">
+      <UniqueIdentifier>{f0a869f0-b06e-4baf-900a-f1ed68302884}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -266,6 +272,15 @@
     </ClCompile>
     <ClCompile Include="examples\scene-manager\various_fade.cpp">
       <Filter>examples\scene-manager</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\mouse-keyboard\textinput_window.cpp">
+      <Filter>examples\mouse-keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\animation\easing_editor.cpp">
+      <Filter>examples\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\shape\radar_chart.cpp">
+      <Filter>examples\shape</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

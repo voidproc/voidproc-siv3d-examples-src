@@ -1,5 +1,11 @@
 ﻿# pragma once
 
+// ★ 図形を描く ( examples/shape/ )
+void Main_radar_chart(); // radar_chart.cpp : レーダーチャート
+
+// ★ 動きを作る ( examples/animation/ )
+void Main_easing_editor(); // easing_editor.cpp : イージングエディタ
+
 // ★ あたり判定 ( examples/2d-intersection/ )
 void Main_ddp_laser(); // ddp_laser.cpp : 障害物に当たるまで上方へ伸びる DDP 風レーザー
 void Main_intersect(); // intersect.cpp : 異なる種類の図形に対し一括であたり判定をチェックする
@@ -21,6 +27,7 @@ void Main_low_resolution_scene(); // low_resolution_scene.cpp : 低解像度の�
 // ★ マウス・キーボード入力 ( examples/mouse-keyboard/ )
 void Main_follow_cursor(); // follow_cursor.cpp : マウスに吸着する物体
 void Main_key_mouse_inputs(); // key_mouse_inputs.cpp : 押されたキー・マウスのボタン名を表示
+void Main_textinput_window(); // textinput_window.cpp : テキスト入力ウィンドウ
 
 // ★ 2D レンダーステート ( examples/renderstates2d/ )
 void Main_camera(); // camera.cpp : キャラの少し前の方を2Dカメラで追従する

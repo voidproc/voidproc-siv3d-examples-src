@@ -1,10 +1,16 @@
-﻿#include <Siv3D.hpp>
+﻿# include <Siv3D.hpp>
 
-#include "examples/examples.h"
+# include "examples/examples.h"
 
 void Main()
 {
 	// 実行したいサンプルの行のコメントを外してください.
+
+	// ★ 図形を描く ( examples/shape/ )
+	//Main_radar_chart(); // radar_chart.cpp : レーダーチャート
+
+	// ★ 動きを作る ( examples/animation/ )
+	//Main_easing_editor(); // easing_editor.cpp : イージングエディタ
 
 	// ★ あたり判定 ( examples/2d-intersection/ )
 	//Main_ddp_laser(); // ddp_laser.cpp : 障害物に当たるまで上方へ伸びる DDP 風レーザー
@@ -27,6 +33,7 @@ void Main()
 	// ★ マウス・キーボード入力 ( examples/mouse-keyboard/ )
 	//Main_follow_cursor(); // follow_cursor.cpp : マウスに吸着する物体
 	//Main_key_mouse_inputs(); // key_mouse_inputs.cpp : 押されたキー・マウスのボタン名を表示
+	//Main_textinput_window(); // textinput_window.cpp : テキスト入力ウィンドウ
 
 	// ★ 2D レンダーステート ( examples/renderstates2d/ )
 	//Main_camera(); // camera.cpp : キャラの少し前の方を2Dカメラで追従する

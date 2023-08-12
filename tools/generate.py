@@ -24,6 +24,8 @@ def extract_example_info(filepath):
 
 
 sections = {
+    'shape': { 'desc': '図形を描く', 'examples': [] },
+    'animation': { 'desc': '動きを作る', 'examples': [] },
     '2d-intersection': { 'desc': 'あたり判定', 'examples': [] },
     'texture': { 'desc': '画像を描く', 'examples': [] },
     'time': { 'desc': '日付と時刻、時間', 'examples': [] },
@@ -72,7 +74,7 @@ with open(examples_path, 'w', encoding='utf_8_sig') as file_examples_h:
 main_cpp_path = '../Main.cpp'
 
 with open(main_cpp_path, 'w', encoding='utf_8_sig') as file_main_cpp:
-    file_main_cpp.write('# include <Siv3D.hpp>\n\n# include "examples/examples.h"\n\nvoid Main()\n{\n\t// 実行したいサンプルの行をコメントアウトしてください\n\n')
+    file_main_cpp.write('# include <Siv3D.hpp>\n\n# include "examples/examples.h"\n\nvoid Main()\n{\n\t// 実行したいサンプルの行のコメントを外してください.\n\n')
 
     for section in sections:
         section_desc = sections[section]["desc"]
